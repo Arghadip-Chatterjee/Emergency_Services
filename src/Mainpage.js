@@ -17,7 +17,7 @@ const MainPage = () => {
       .signOut()
       .then(() => {
         // Handle successful sign-out
-        navigate('/login');
+        navigate('/');
       })
       .catch((error) => {
         // Handle error
