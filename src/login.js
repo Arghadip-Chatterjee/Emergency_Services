@@ -12,7 +12,7 @@ const Login = () => {
       if (result.user) {
         // User is signed in
         console.log(result.user);
-        navigate('/');
+        navigate('/main-page');
       }
     }).catch((error) => {
       // Handle error
