@@ -22,7 +22,10 @@
   /* Input fields */
   .input-field {
     margin: 5px 0;
-    padding: 5px;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin-bottom: 10px;
   }
   
   /* Location Access and Search buttons */
@@ -33,6 +36,9 @@
     color: white;
     border: none;
     cursor: pointer;
+    border: 1px solid black;
+    border-radius: 10px;
+    font-size: 20px;
   }
   
   /* ChatSonic button */
@@ -43,6 +49,10 @@
     color: white;
     border: none;
     cursor: pointer;
+    font-size: 20px;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin-bottom: 15px;
   }
   
   /* ChatSonic output */
