@@ -6,14 +6,14 @@ const ThankYouContainer = {
   alignItems: 'center',
   justifyContent: 'center',
   height: '100vh',
-  backgroundColor: '#f4f7f9',
+  backgroundColor: 'rgb(41, 80, 131)',
 };
 
 const Title = {
   fontSize: '2.5rem',
   fontWeight: 'bold',
   marginBottom: '2rem',
-  color: '#333',
+  color: '#fff',
   textAlign: 'center',
 };
 
@@ -34,7 +34,7 @@ const ThankYouPage = ({ selectedCarName, selectedCarPrice }) => {
 
   return (
     <div style={ThankYouContainer}>
-      <h1 style={Title}>Thank You for Paying. Your Service will be at Destination soon</h1>
+      <h1 style={Title}>Your Service will be at Destination soon. Please Pay to Avail Service. </h1>
       <form id="payment-form">
         {/* <div style={SelectedCar}>
           Selected Car: {selectedCarName} - Price: ${selectedCarPrice}

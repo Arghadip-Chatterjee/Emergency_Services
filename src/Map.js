@@ -159,7 +159,7 @@ const Map = () => {
   };
   
   return (
-    <div>
+    <div className='background'>
     <div id="map" className="map"></div>
     <div className="distance">
       <h3>Distance Traveled:</h3> 

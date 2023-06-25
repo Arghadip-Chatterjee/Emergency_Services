@@ -5,12 +5,14 @@
     align-items: center;
     padding: 20px;
     max-height: 100vh; /* Set a minimum height to ensure the content takes up at least the full viewport height */
+    background-color: rgb(41, 80, 131);;
   }
   
   
   .ride-selector-title {
     font-size: 24px;
     margin-bottom: 20px;
+    color: aliceblue;
   }
   
   .car-list {
@@ -88,12 +90,13 @@
     border: none;
     border-radius: 0.25rem;
     cursor: pointer;
-    transition: background-color 0.3s ease;
+    transition: transform 0.3s ease;
     margin-top: 20px;
   }
   
   .confirm-button:hover {
     background-color: #0d47a1;
+    transform: scale(1.12);
   }
   
   

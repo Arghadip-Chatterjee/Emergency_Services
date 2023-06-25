@@ -30,7 +30,7 @@ const Login = () => {
       <h1 className="login-title">Login Screen for Emergency Services</h1>
       <img
         className="login-image"
-        src="https://www.pngkit.com/png/detail/518-5186670_login-icon-login-signup-icon-png.png"
+        src="https://cdn-icons-png.flaticon.com/512/5509/5509636.png"
         alt="Emergency Services"
       />
       <button className="login-button" onClick={handleGoogleSignIn}>
