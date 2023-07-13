@@ -4,6 +4,7 @@ import MainPage from './Mainpage';
 import Login from './login';
 import BookNow from './BookNow';
 import ThankYouPage from './thanks';
+import Map from './Map';
 
 const App = () => {
   return (
@@ -12,7 +13,7 @@ const App = () => {
         <Routes>
           <Route exact path="/main-page" element={<MainPage/>}/>
           <Route exact path="/" element={<Login/>}/>
-          <Route exact path="/book-now" element={<BookNow/>}/>
+          <Route exact path="/book-now" element={<Map/>}/>
           <Route exact path="/thanks" element={<ThankYouPage/>}/>
         </Routes>
         </div>

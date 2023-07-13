@@ -11,7 +11,7 @@ const BookNow = () => {
 
   return (
     <div className="book-now-container">
-      <Map pickupCoordinates={pickupCoordinates} dropoffCoordinates={dropoffCoordinates} />
+      <Map/>
     </div>
   );
 };
